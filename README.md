@@ -17,7 +17,7 @@ Asegúrate de tener los siguientes requisitos instalados en tu equipo:
 - [PHP 8.2+](https://www.php.net/downloads.php)
 - [Composer](https://getcomposer.org/download/)
 - [MySQL](https://dev.mysql.com/downloads/mysql/) o [XAMPP](https://www.apachefriends.org/es/index.html) como alternativa
-- [Node.js y NPM](https://nodejs.org/) (solo si deseas compilar los assets)
+- [Node.js y NPM](https://nodejs.org/)
 
 ---
 
