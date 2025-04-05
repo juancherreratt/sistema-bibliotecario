@@ -2,6 +2,9 @@
 # 📚 Gestión de Inventario de Bibliotecas - UNIMINUTO
 
 Este es un sistema de gestión de inventario de materiales educativos para bibliotecas desarrollado con **Laravel 12**, **Livewire**, y componentes modernos. Permite a los bibliotecarios registrar, actualizar, visualizar y eliminar materiales como libros, revistas o artículos, con una interfaz dinámica sin recargar la página.
+![image](https://github.com/user-attachments/assets/c93aadbb-4ab9-444c-8678-d16f6e05567a)
+
+![image](https://github.com/user-attachments/assets/4ea18a38-55a6-4cac-8aaa-fba085dfdec4)
 
 ---
 
