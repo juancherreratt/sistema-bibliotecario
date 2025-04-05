@@ -2,9 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
+use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
-    return redirect()->route('login');
+    return Auth::check()
+    ? redirect()->route('dashboard')
+    : redirect()->route('login');
 })->name('home');
 
 Route::view('dashboard', 'dashboard')
