@@ -26,10 +26,10 @@
                     <p><strong>Código único:</strong> {{ $material->reference_code }}</p>
                 </div>
                 <div>
-                    <p><strong>Cantidad:</strong> {{ $material->quantity }}</p>
                     <p><strong>Ubicación:</strong> {{ $material->section->name }}</p>
-                    <p><strong>Precio:</strong> {{ $material->price }}</p>
-                    <p><strong>Valor Total:</strong> ${{ number_format($material->quantity * $material->value, 0, ',', '.') }}</p>
+                    <p><strong>Cantidad:</strong> {{ $material->quantity }}</p>
+                    <p><strong>Precio:</strong> ${{ number_format($material->price, 0, ',', '.') }}</p>
+                    <p><strong>Valor Total:</strong> ${{ number_format($material->quantity * $material->price, 0, ',', '.') }}</p>
                 </div>
             </div>
             <div class="mt-4 flex justify-end gap-2">
