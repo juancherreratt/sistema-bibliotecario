@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             LibrarySeeder::class,
             UserSeeder::class,
+            SectionSeeder::class,
         ]);
 
         // User::factory()->create([
